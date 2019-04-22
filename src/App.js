@@ -13,7 +13,6 @@ class App extends Component {
     this.props.triggerUser(event.target.value);
   }
   render() {
-    console.log('current props', this.props);  
     return (
       <div className="App">
         <header className="App-header">
@@ -26,7 +25,6 @@ class App extends Component {
 }
 
 const mapStateToProps = (state, props) => {
-  console.log('state prop', props)
   return state;
 }
 
